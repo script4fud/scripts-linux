@@ -1,4 +1,14 @@
 #!/bin/bash
+
+########## README ################################
+## Quick & simple Bash script to query a list of installed Ubuntu repos, prompt 
+## user for a choice of repo, & lists all packages available from the repo.
+
+########## REQUIREMENTS ##########################
+## This script pre-supposes a standard repo location (/var/lib/apt/lists)
+## and file access permissions to this path.
+
+## Clear Terminal Screen
 clear
 
 ## Create Array Of Repos
